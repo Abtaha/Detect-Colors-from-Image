@@ -5,8 +5,8 @@ import cv2
 
 
 try:
-	input("Enter your image >> ")
-	image = cv2.imread("img.png")
+	img = input("Enter your image >> ")
+	image = cv2.imread(img)
 except:
 	print("Error, exitting")
 
